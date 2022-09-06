@@ -1,6 +1,7 @@
 using Moq;
 using PreferredItemFinder;
 using PreferredItemFinder.DataModel;
+using PreferredItemFinder.DataRepository;
 using PreferredItemFinder.DataServices;
 
 namespace PreferredItemFinderTests
