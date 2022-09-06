@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="PreferredItemFinderTests\**" />
+    <EmbeddedResource Remove="PreferredItemFinderTests\**" />
+    <None Remove="PreferredItemFinderTests\**" />
+  </ItemGroup>
+
 </Project>
